@@ -16,4 +16,4 @@ RUN echo 'export PATH="$PATH:/opt/mssql-tools/bin"' >> ~/.bashrc
 WORKDIR /usr/src/app
 COPY . .
 
-RUN python tect_connect.py
+RUN python test_connect.py
